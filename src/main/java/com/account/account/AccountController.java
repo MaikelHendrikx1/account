@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.server.ResponseStatusException;
 
 @Controller
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:6001", "http://localhost:6002", "http://localhost:6003"})
 @RequestMapping(path = "/Account")
 public class AccountController {
     @Autowired
